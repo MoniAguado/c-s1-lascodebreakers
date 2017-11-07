@@ -126,3 +126,58 @@ footer{
 	padding: 0px;
 	border: 0px;
 }
+/*marta*/
+.foto{
+	/*color blanco y negro*/
+	width: 100%;
+	filter: grayscale(100%);
+
+  	/*imagen redonda sombreado*/
+	border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+	}
+
+
+.avatar{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 15px;
+	}
+
+.opacidad{
+	background: black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	transition: opacity linear .8s;
+	}
+
+.datos{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	display: none;
+	}
+
+.nombre, .rol{
+		margin: 0;
+	     }
+
+.avatar:hover .datos{
+			display: block;
+		     }
+
+ .avatar:hover .opacidad{
+			opacity: 0.4;
+			}
+display: block;
+}
