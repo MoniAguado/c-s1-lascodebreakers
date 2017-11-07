@@ -1,0 +1,73 @@
+
+
+body {
+  margin: 0;
+	width: 100%;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding-top: 250px;
+
+
+}
+
+header
+{
+	width: 320px;
+	border: 2px solid black;
+	margin: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.logo-codebreakers
+{
+	display: block;
+	width: 100%;
+
+}
+
+.grupo
+{
+	border: 2px solid black;
+	margin: 5px;
+}
+.foto-grupo img
+{
+  width: 320px;
+}
+
+.texto-grupo p
+{
+	text-align: justify;
+	padding: 20px;
+	padding-left: 5px;
+	padding-top: 120px;
+	margin-top: 0px;
+}
+
+.miembras
+{
+	background: grey;
+	border: 2px solid black;
+	margin: 5px;
+}
+
+.bloque img
+{
+
+
+}
+
+.bloque p
+{
+
+
+}
+
+.footer p
+{
+	background: purple;
+	border: 2px solid black;
+	position: relative;
+	bottom: 0;
+}
