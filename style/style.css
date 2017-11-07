@@ -7,8 +7,7 @@ body {
 	padding-top: 250px;
 }
 
-header
-{
+header{
 	width: 100%;
 	border: 2px solid black;
 	margin: 0;
@@ -20,40 +19,30 @@ header
 	display: block;
 	width: 100%;
 }
-.grupo
-{
+.grupo{
 	border: 2px solid black;
 	margin: 5px;
 }
-.foto-grupo img
-{
+.foto-grupo img{
   width: 320px;
 }
-
-.texto-grupo p
-{
+.texto-grupo p{
 	text-align: justify;
 	padding: 20px;
 	padding-left: 5px;
 	padding-top: 120px;
 	margin-top: 0px;
 }
-
-.miembras
-{
+.miembras{
 	background: grey;
 	border: 2px solid black;
 	margin: 5px;
 }
-
-.bloque img
-{
-
+.bloque img{
 
 }
 
-.bloque p
-{
+.bloque p{
 
 
 }
@@ -135,7 +124,7 @@ footer{
   	/*imagen redonda sombreado*/
 	border-radius: 150px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-	 
+
 	}
 
 
