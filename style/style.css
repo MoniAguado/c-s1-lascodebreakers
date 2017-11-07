@@ -78,10 +78,51 @@ header
 webkit-transform:scale(1.3);transform:scale(1.3);
 }
 
-.footer p
-{
+footer{
 	background: purple;
 	border: 2px solid black;
 	position: relative;
 	bottom: 0;
+	display: block;
+}
+.fotologoadalab{
+	height: 80px;
+	width: 206px;
+}
+.redes li{
+	list-style: none;
+	display: inline-block;
+	}
+.fotologotwitter{
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+}
+.fotologotwitter:hover {
+	webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.fotologolinkedin{
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+}
+.fotologolinkedin:hover {
+	webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.fotologofacebook{
+	height: 32px;
+	width: 32px;
+	overflow: hidden;
+}
+.fotologofacebook:hover {
+	webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.redes{
+	position: absolute;
+	right: 30px;
+	top: 0px;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
 }
