@@ -6,6 +6,7 @@ body {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 	padding-top: 150px;
 }
+/*header*/
 
 header {
 	width: 100%;
@@ -17,7 +18,6 @@ header {
 	top: 0;
 	left: 0;
 	display: block;
-	border-bottom: 2px solid pink;
 	z-index: 1;
 
 }
@@ -32,14 +32,48 @@ header {
 	transform: translate(-50%,-50%);
 }
 
+/*main*/
+
+h2 {
+	font-size: 2.5em;
+	color: black;
+	margin: 20px;
+}
+
+/*fortalezas y debilidades*/
+.fortalezas-debilidades{
+	width: 100%;
+	height: 200px;
+	border: 2px solid pink;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+.caja ul {
+  list-style-image: url("marker.png");
+}
+
+.caja{
+
+}
+
+.debilidades{
+
+}
+
+.fortalezas{
+
+}
+
 .grupo {
 	padding: 4px;
 	margin: 5px;
 }
 .foto-grupo img {
   width: 100%;
-	border: 3px solid pink;
-	margin: 5px;
+	margin: 20px;
+	padding: 10px;
 }
 
 .texto-grupo p {
@@ -48,23 +82,17 @@ header {
 	margin-top: 0px;
 }
 
-
 .miembras {
 	border: 2px;
 	margin: 5px;
 }
 
-.bloque img{
-
-}
-
-
 .bloque p {
 	text-align: justify;
 	padding: 4px;
 	margin: 5px;
-
 }
+
 /*cris */
 .iconoampliado{
 	display: inline-block;
@@ -86,8 +114,63 @@ header {
 webkit-transform:scale(1.3);transform:scale(1.3);
 }
 
-footer{
+/*marta*/
+.foto{
+	/*color blanco y negro*/
+	width: 100%;
+	filter: grayscale(100%);
+
+  	/*imagen redonda sombreado*/
+	border-radius: 150px;
+	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+	}
+
+.avatar{
+	width: 200px;
+	height: 200px;
+	position: relative;
+	margin: 15px;
+	}
+
+.opacidad{
 	background: black;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	opacity: 0;
+	transition: linear .8s;
+	}
+
+.datos{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	display: none;
+	}
+
+.nombre, .rol{
+	margin: 0;
+}
+
+.avatar:hover .datos{
+		display: block;
+}
+
+ .avatar:hover .opacidad{
+			opacity: 0.4;
+			}
+
+/*Teresa*/
+
+footer{
+	background: solid black;
 	border: 2px;
 	position: relative;
 	bottom: 0;
@@ -139,60 +222,4 @@ footer{
 }
 .fotologofacebook:hover {
 	webkit-transform:scale(1.3);transform:scale(1.3);
-}
-
-/*marta*/
-.foto{
-	/*color blanco y negro*/
-	width: 100%;
-	filter: grayscale(100%);
-
-  	/*imagen redonda sombreado*/
-	border-radius: 150px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-
-	}
-
-
-.avatar{
-	width: 200px;
-	height: 200px;
-	position: relative;
-	margin: 15px;
-	}
-
-.opacidad{
-	background: black;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	border-radius: 50%;
-	opacity: 0;
-	transition: opacity linear .8s;
-	}
-
-.datos{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	color: white;
-	text-align: center;
-	transform: translate(-50%,-50%);
-	display: none;
-	}
-
-.nombre, .rol{
-		margin: 0;
-	     }
-
-.avatar:hover .datos{
-			display: block;
-		     }
-
- .avatar:hover .opacidad{
-			opacity: 0.4;
-			}
-display: block;
 }
