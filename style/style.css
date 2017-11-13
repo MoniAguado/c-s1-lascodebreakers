@@ -70,17 +70,18 @@ h2 {
 	display: list-item;
 }
 
-.marker .debilidades li {
-  list-style-image: url("image/markerflecha.png");
+.debilidades li {
+  list-style-image: url("../image/markerflecha.png");
 }
 
-.marker .fortalezas li{
-	list-style-image: url("image/markercheck.png");
+.fortalezas li{
+	list-style-image: url("../image/markercheck.png");
 }
 
 .grupo {
 	padding: 4px;
 	margin: 5px;
+	font-size: 20px;
 }
 .foto-grupo img {
   width: 90%;
@@ -98,6 +99,7 @@ h2 {
 .miembras {
 	border: 2px;
 	margin: 5px;
+	font-size: 20px;
 }
 
 .bloque p {
@@ -106,6 +108,7 @@ h2 {
 	padding: 10px;
 	margin: 10px;
 }
+
 
 /*cris */
 .iconoampliado{
