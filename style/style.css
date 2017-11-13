@@ -21,30 +21,27 @@ header {
 	display: block;
 	z-index: 1;
 }
-#arriba {
-	 width: 5px;
-	 padding: 5px;
-	 position: fixed;
-	 bottom: 15px;
-	 right: 45px;
-	 z-index: 1;
-	 opacity: 0.9;
-}
-#arriba img{
-	width: 30px;
-	height: 30px;
-}
+
 .logo-codebreakers {
 	display: block;
 	width: 50%;
 	padding-left: 50px;
 	padding-bottom: 10px;
+	top: 40%;
 	left: 30%;
-	top: 50%;
 	position: absolute;
 	transform: translate(-50%,-50%);
 }
 
+@media all and (max-width:500px) {
+    .logo-codebreakers {
+				width: 320px;
+				padding-left: 20px;
+				padding-bottom: 10px;
+				top: 40%;
+				left: 30%;
+    }
+	}
 /*main*/
 
 h2 {
@@ -56,15 +53,23 @@ h2 {
 
 /*fortalezas y debilidades*/
 .fortalezas-debilidades{
-	width: 100%;
+	width: 95%;
 	height: 200px;
-	border: 2px solid pink;
 	margin: 10px;
 	padding: 10px;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+	box-sizing: border-box;
 }
+
+@media all and (max-width:600px) {
+    .fortalezas-debilidades {
+        display: flex;
+				flex-direction: column;
+				height: 450px;
+    }
+	}
 
 .marker ul{
 	display: list-item;
@@ -213,16 +218,23 @@ webkit-transform:scale(1.3);transform:scale(1.3);
 
 footer{
 	background: black;
-	border: 2px;
 	position: relative;
 	bottom: 0;
-	height: 230px;
-	padding: 20px;
+	width: 100%;
+	height: 650px;
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
 
 }
+@media all and (min-width:420px) {
+    .footer{
+				height: 230px;
+        display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				align-items: center;
+    }
+	}
 .fotologoadalab{
 	height: 80px;
 	width: 206px;
@@ -234,8 +246,8 @@ footer{
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	padding: 0 5px;
-
 }
+    }
 
 .redes li{
 	list-style: none;
@@ -268,4 +280,20 @@ footer{
 .redes p{
 	color: white;
 	text-align: center;
+}
+
+/*flecha subir arriba*/
+
+#arriba {
+	 width: 5px;
+	 padding: 5px;
+	 position: fixed;
+	 bottom: 15px;
+	 right: 45px;
+	 z-index: 1;
+	 opacity: 0.9;
+}
+#arriba img{
+	width: 30px;
+	height: 30px;
 }
