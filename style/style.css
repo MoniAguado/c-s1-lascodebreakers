@@ -78,15 +78,19 @@ h2 {
 	list-style-image: url("image/markercheck.png");
 }
 
+/* texto e imagen grupal */
 .grupo {
 	padding: 4px;
 	margin: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .foto-grupo img {
   width: 90%;
 	margin: 20px;
 	padding: 20px;
-}
+	}
 
 .texto-grupo p {
 	text-align: justify;
@@ -98,32 +102,37 @@ h2 {
 .miembras {
 	border: 2px;
 	margin: 5px;
-}
+	}
 
-.bloque p {
+.miembras p {
 	text-align: justify;
 	font-size: 20px;
 	padding: 10px;
 	margin: 10px;
 }
+.Persona{
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: column;
+}
 
 /*cris */
 .iconoampliado{
-	display: inline-block;
-	width:35px;
-	height:35px;
-	border:10px;
-  overflow:hidden;
+	width: 35px;
+	height: 35px;
+	border: 10px;
+  overflow: hidden;
 }
 .iconoSocial{
 	margin:auto 10px;
 }
 .listaSocial{
 	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
-.flotarIzq{
-	float:left;
-}
+
 .iconoampliado:hover{
 webkit-transform:scale(1.3);transform:scale(1.3);
 }
