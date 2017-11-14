@@ -41,6 +41,11 @@ header {
 				left: 30%;
     }
 	}
+
+nav {
+	float: right;
+}
+
 /*main*/
 
 h2 {
@@ -62,7 +67,7 @@ h2 {
 	box-sizing: border-box;
 }
 
-@media all and (max-width:600px) {
+@media all and (max-width:700px) {
     .fortalezas-debilidades {
         display: flex;
 				flex-direction: column;
