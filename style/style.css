@@ -31,7 +31,6 @@ header {
 	position: absolute;
 	transform: translate(-50%,-50%);
 }
-
 @media all and (max-width:500px) {
     .logo-codebreakers {
 				width: 320px;
@@ -41,7 +40,6 @@ header {
 				left: 30%;
     }
 	}
-
 nav {
 	float: right;
 	padding-right: 20px;
@@ -112,6 +110,7 @@ h2 {
   width: 90%;
 	margin: 20px;
 	padding: 20px;
+	border-radius: 65px;
 	}
 
 .texto-grupo p {
