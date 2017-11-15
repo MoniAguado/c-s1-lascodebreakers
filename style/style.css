@@ -135,7 +135,7 @@ h2 {
 }
 
 .iconoampliado:hover{
-webkit-transform:scale(1.3);transform:scale(1.3);
+-webkit-transform:scale(1.3);transform:scale(1.3);
 }
 
 /*marta*/
@@ -286,6 +286,7 @@ footer{
 	width: 100%;
 	height: 43.75em;
 	padding: 20px;
+	box-sizing: border-box;
 	background: linear-gradient(0deg, #dfe1e1, #f8fbfb);
 }
 .completar{
@@ -352,15 +353,16 @@ textarea{
 	width: 125px;
 
 }
-h1{
+.preguntaformulario{
 	font-size: 45px;
 }
-h2{
+.despedida{
 	padding: 15px;
 }
 .formulario p{
 	font-size: 19px;
 }
+
 
 @media all and (min-width:500px) {
 	header{
