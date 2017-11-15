@@ -11,7 +11,6 @@ body {
 header {
 	width: 100%;
 	height: 220px;
-	border: 2px;
 	background: white;
 	margin: 0;
 	position: fixed;
@@ -29,7 +28,7 @@ header {
 }
 
 nav {
-	padding-right: 20px;
+	padding: 0 20px;
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -44,9 +43,8 @@ nav ul li a{
 }
 /*main*/
 
-h2 {
+.section-title {
 	font-size: 2.5em;
-	color: black;
 	margin: 20px;
 	color: #3D3D3C;
 	padding-left: 50px;
@@ -80,15 +78,19 @@ h2 {
 /*fortalezas y debilidades*/
 .fortalezas-debilidades{
 	width: 85%;
-	height: 430px;
 	margin: 10px;
 	padding-left: 50px;
+
+}
+.bloque-fd{
+	height: 430px;
 	display: flex;
 	flex-direction: column;
 }
 
 .marker ul{
 	display: list-item;
+
 }
 
 .debilidades li {
@@ -115,6 +117,8 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	flex-flow: column;
+	justify-content: center;
+	margin: 0;
 }
 
 /*cris */
@@ -180,7 +184,7 @@ webkit-transform:scale(1.3);transform:scale(1.3);
 	display: none;
 	}
 
-	.nombre{
+.nombre{
 		color: white;
 	}
 
@@ -192,12 +196,11 @@ webkit-transform:scale(1.3);transform:scale(1.3);
 			display: block;
 		     }
 
- .avatar:hover .opacidad{
+.avatar:hover .opacidad{
 			opacity: 0.4;
 			}
 
-
-			/*separador*/
+/*separador*/
 .separador {
 			  border: 3px solid grey;
 				border-radius: 200px /8px;
@@ -367,28 +370,27 @@ h2{
 		flex-direction:row;
 		justify-content: space-between;
 		align-items: center;
-		height: 220px;
+		height: 180px;
+		padding: 0 20px;
 	}
 
   .logo-codebreakers {
 			width: 50%;
-			padding-left: 20px;
+			padding-left: 30px;
 			padding-bottom: 10px;
 	}
-	.fortalezas-debilidades {
+	.bloque-fd {
 		 flex-wrap: nowrap;
 		 flex-direction: row;
 		 justify-content: space-between;
 		 box-sizing: border-box;
-		 height: 200px;
-		 width: 85%;
+		 height: 220px;
 	}
   .Persona {
 		display: flex;
 		flex-wrap: wrap;
 		flex-flow: column;
 		height: 600px;
-		width: 85%;
   }
 @media all and (min-width:600px) {
 	footer{
@@ -396,13 +398,14 @@ h2{
 			flex-direction: row;
 	}
 }
+
 @media all and (min-width:700px) {
     .Persona {
 			flex-wrap: nowrap;
 			flex-direction: row;
 			justify-content: space-between;
 			box-sizing: border-box;
-			height: 400px;
+			height: 580px;
 			width: 85%;
     }
     .avatar {
@@ -412,4 +415,10 @@ h2{
 		.bloque {
 			padding-left: 50px;
 		}
+}
+
+@media all and (min-width:850px) {
+	.Persona{
+			height: 410px;
+	}
 }
