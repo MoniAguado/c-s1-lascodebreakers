@@ -17,7 +17,7 @@ header {
 	top: 0;
 	left: 0;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	flex-direction: column;
 	z-index: 1;
 	padding: 0 20px;
@@ -47,7 +47,7 @@ nav ul li a{
 /*main*/
 
 .section-title {
-	font-size: 3em;
+	font-size: 2em;
 	margin: 20px;
 	color: #3D3D3C;
 	padding-left: 50px;
@@ -88,7 +88,7 @@ nav ul li a{
 	height: 430px;
 	display: flex;
 	flex-direction: column;
-	padding: 0 30px;
+	padding: 0 20px;
 }
 
 .marker ul{
@@ -391,19 +391,23 @@ textarea{
 		 box-sizing: border-box;
 		 height: 220px;
 	}
-  .Persona {
+  	.Persona {
 		display: flex;
 		flex-wrap: wrap;
-		flex-flow: column;
+		flex-direction: column;
 		height: 600px;
   }
 	.formulario p{
 		font-size: 20px;
 	}
+}
 @media all and (min-width:600px) {
 	footer{
 			height: 230px;
 			flex-direction: row;
+	}
+	.section-title {
+		font-size: 3em;
 	}
 }
 
