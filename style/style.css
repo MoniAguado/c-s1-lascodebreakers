@@ -17,6 +17,7 @@ header {
 	top: 0;
 	left: 0;
 	display: flex;
+	justify-content: center;
 	flex-direction: column;
 	z-index: 1;
 }
@@ -288,9 +289,12 @@ footer{
 .formulario{
 	width: 100%;
 	height: 43.75em;
-	padding: 20px;
+	padding-top: 70px;
+	padding-left: 20px;
+	padding-right: 20px;
 	box-sizing: border-box;
 	background: linear-gradient(0deg, #dfe1e1, #f8fbfb);
+	flex: 1;
 }
 .completar{
 	display: flex;
@@ -361,14 +365,13 @@ textarea{
 	padding: 15px;
 }
 .formulario p{
-	font-size: 45px;
+	font-size: 20px;
 }
 
 
 @media all and (min-width:500px) {
 	header{
 		flex-direction:row;
-		justify-content: space-between;
 		align-items: center;
 		height: 180px;
 		padding: 0 20px;
@@ -392,6 +395,9 @@ textarea{
 		flex-flow: column;
 		height: 600px;
   }
+	.formulario p{
+		font-size: 20px;
+	}
 @media all and (min-width:600px) {
 	footer{
 			height: 230px;
@@ -414,6 +420,9 @@ textarea{
     }
 		.bloque {
 			padding-left: 50px;
+		}
+		.formulario p{
+			font-size: 25px;
 		}
 }
 
