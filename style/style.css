@@ -45,14 +45,12 @@ nav ul li a{
 	padding: 0 30px;
 }
 /*main*/
-
 .section-title {
 	font-size: 2em;
 	margin: 20px;
 	color: #3D3D3C;
 	padding-left: 50px;
 }
-
 /* texto e imagen grupal */
 .grupo {
 	padding-left: 50px;
@@ -93,7 +91,6 @@ nav ul li a{
 
 .marker ul{
 	display: list-item;
-
 }
 
 .debilidades li {
@@ -140,9 +137,8 @@ nav ul li a{
 	flex-wrap: wrap;
 	justify-content: center;
 }
-
 .iconoampliado:hover{
--webkit-transform:scale(1.3);transform:scale(1.3);
+transform:scale(1.3);
 }
 
 /*marta*/
@@ -155,7 +151,6 @@ nav ul li a{
 	border-radius: 150px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	}
-
 
 .avatar{
 	width: 200px;
@@ -188,30 +183,30 @@ nav ul li a{
 	}
 
 .nombre{
-		color: white;
+	color: white;
 	}
 
 .nombre, .rol{
-		margin: 0;
-	     }
+	margin: 0;
+}
 
 .avatar:hover .datos{
-			display: block;
+	display: block;
 		     }
 
 .avatar:hover .opacidad{
-			opacity: 0.4;
+	opacity: 0.4;
 			}
 
 /*separador*/
 .separador {
-			  border: 3px solid grey;
-				border-radius: 200px /8px;
-				height: 0px;
-				width: 350px;
-				text-align: center;
-				margin-bottom: 30px;
-			}
+	border: 3px solid grey;
+  border-radius: 200px /8px;
+	height: 0px;
+	width: 350px;
+	text-align: center;
+	margin-bottom: 30px;
+	}
 
 /*Teresa*/
 
@@ -241,14 +236,14 @@ footer{
 }
 .redes li{
 	list-style: none;
-	}
+}
 .fotologotwitter{
 	height: 32px;
 	width: 32px;
 	overflow: hidden;
 }
 .fotologotwitter:hover {
-	-webkit-transform:scale(1.3);transform:scale(1.3);
+  transform:scale(1.3);
 }
 .fotologolinkedin{
 	height: 32px;
@@ -256,7 +251,7 @@ footer{
 	overflow: hidden;
 }
 .fotologolinkedin:hover {
-	-webkit-transform:scale(1.3);transform:scale(1.3);
+	transform:scale(1.3);
 }
 .fotologofacebook{
 	height: 32px;
@@ -264,7 +259,7 @@ footer{
 	overflow: hidden;
 }
 .fotologofacebook:hover {
-	-webkit-transform:scale(1.3);transform:scale(1.3);
+	transform:scale(1.3);
 }
 .redes p{
 	color: white;
@@ -360,9 +355,7 @@ textarea{
 	margin: 20px;
 	padding: 10px;
 	width: 125px;
-
 }
-
 .despedida{
 	padding: 15px;
 }
@@ -370,7 +363,7 @@ textarea{
 	font-size: 20px;
 }
 
-
+/*mediaqueries*/
 @media all and (min-width:500px) {
 	header{
 		flex-direction:row;
@@ -380,9 +373,9 @@ textarea{
 	}
 
   .logo-codebreakers {
-			width: 50%;
-			padding-left: 30px;
-			padding-bottom: 10px;
+		width: 50%;
+		padding-left: 30px;
+		padding-bottom: 10px;
 	}
 	.bloque-fd {
 		 flex-wrap: nowrap;
@@ -403,8 +396,8 @@ textarea{
 }
 @media all and (min-width:600px) {
 	footer{
-			height: 230px;
-			flex-direction: row;
+		height: 230px;
+		flex-direction: row;
 	}
 	.section-title {
 		font-size: 3em;
