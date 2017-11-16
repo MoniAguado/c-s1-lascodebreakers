@@ -246,7 +246,7 @@ footer{
 	overflow: hidden;
 }
 .fotologotwitter:hover {
-	webkit-transform:scale(1.3);transform:scale(1.3);
+	-webkit-transform:scale(1.3);transform:scale(1.3);
 }
 .fotologolinkedin{
 	height: 32px;
@@ -254,7 +254,7 @@ footer{
 	overflow: hidden;
 }
 .fotologolinkedin:hover {
-	webkit-transform:scale(1.3);transform:scale(1.3);
+	-webkit-transform:scale(1.3);transform:scale(1.3);
 }
 .fotologofacebook{
 	height: 32px;
@@ -262,7 +262,7 @@ footer{
 	overflow: hidden;
 }
 .fotologofacebook:hover {
-	webkit-transform:scale(1.3);transform:scale(1.3);
+	-webkit-transform:scale(1.3);transform:scale(1.3);
 }
 .redes p{
 	color: white;
