@@ -70,9 +70,11 @@ nav ul li a{
 .texto-grupo p {
 	text-align: justify;
 	padding-left: 5px;
-	margin-top: 0px;
+	padding: 10px;
+	margin: 10px;
 	color: #3D3D3C;
 	font-size: 20px;
+
 }
 
 /*fortalezas y debilidades*/
@@ -384,12 +386,12 @@ textarea{
 		 box-sizing: border-box;
 		 height: 220px;
 	}
-  	.Persona {
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		height: 600px;
-  }
+	.Persona {
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	height: 600px;
+}
 	.formulario p{
 		font-size: 20px;
 	}
