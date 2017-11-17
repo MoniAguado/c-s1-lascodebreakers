@@ -46,10 +46,13 @@ nav ul li a{
 }
 /*main*/
 .section-title {
-	font-size: 2em;
+	font-size: 2rem;
 	margin: 20px;
 	color: #3D3D3C;
 	padding-left: 50px;
+}
+.miembras .section-title {
+	padding-left: 100px;
 }
 /* texto e imagen grupal */
 .grupo {
@@ -80,7 +83,7 @@ nav ul li a{
 /*fortalezas y debilidades*/
 .fortalezas-debilidades{
 	width: 85%;
-	margin: 10px;
+	margin: 5px;
 	padding-left: 50px;
 
 }
@@ -402,7 +405,7 @@ textarea{
 		flex-direction: row;
 	}
 	.section-title {
-		font-size: 3em;
+		font-size: 3rem;
 	}
 }
 
