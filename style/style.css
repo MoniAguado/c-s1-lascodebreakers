@@ -1,4 +1,9 @@
-
+html{
+	box-sizing: border-box;
+}
+*{
+	box-sizing: inherit;
+}
 body {
   margin: 0;
 	width: 100%;
@@ -25,7 +30,7 @@ header {
 
 .logo-codebreakers {
 	display: block;
-	width: 320px;
+	width: 90%;
 	padding-left: 20px;
 }
 
@@ -51,15 +56,13 @@ nav ul li a{
 	color: #3D3D3C;
 	padding-left: 50px;
 }
-.miembras .section-title {
-	padding-left: 100px;
-}
 
 /* texto e imagen grupal */
 .grupo {
-	padding-left: 50px;
-	width: 85%;
-	margin: 5px;
+	padding-left: 30px;
+	width: 90%;
+	margin: 0px;
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -85,14 +88,14 @@ nav ul li a{
 .fortalezas-debilidades{
 	width: 85%;
 	margin: 5px;
-	padding-left: 50px;
+	padding-left: 10px;
 
 }
 .bloque-fd{
 	height: 430px;
 	display: flex;
 	flex-direction: column;
-	padding: 0 20px;
+	padding: 0 10px;
 }
 
 .marker ul{
@@ -209,7 +212,7 @@ transform:scale(1.3);
 	border: 3px solid grey;
   border-radius: 200px /8px;
 	height: 0px;
-	width: 350px;
+	width: 80%;
 	text-align: center;
 	margin-bottom: 30px;
 	}
