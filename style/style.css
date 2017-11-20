@@ -350,14 +350,12 @@ footer{
 	width: 40%;
 	margin: 10px;
 	border-radius: 05px;
-	height: 20px;
 	padding: 5px;
 }
 .email{
 	width: 55%;
 	margin: 10px;
 	border-radius: 05px;
-	height: 20px;
 	justify-content: flex-end;
 	padding: 5px;
 }
