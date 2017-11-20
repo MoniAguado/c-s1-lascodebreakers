@@ -49,6 +49,10 @@ nav ul li a{
 	color: #3D3D3C;
 	padding: 0 30px;
 }
+.hovercontacto:hover{
+	color: #3CDBC0;
+	text-decoration: underline;
+}
 /*main*/
 .section-title {
 	font-size: 2rem;
@@ -83,7 +87,11 @@ nav ul li a{
 	font-size: 20px;
 
 }
+.enlacecodebreakers{
+	text-decoration: none;
+	color: #3CDBC0;
 
+}
 /*fortalezas y debilidades*/
 .fortalezas-debilidades{
 	width: 85%;
